@@ -14,3 +14,5 @@ jobs:
         run: npm ci --prefix tests
       - name: Run checks
         run: ./run_tests.sh
+
+# Trigger autograder
